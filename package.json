@@ -3,7 +3,7 @@
   "author": "Rawad Rifai",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rawadrifai.github.io/ethereum/",
+  "homepage": "https://rawadrifai.github.io/ChainList/",
   "devDependencies": {
     "autoprefixer": "6.5.1",
     "babel-core": "6.17.0",
