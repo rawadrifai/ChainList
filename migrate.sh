@@ -1,0 +1,1 @@
+truffle migrate --reset && cp -R ./build/contracts ./src
