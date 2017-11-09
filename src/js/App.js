@@ -99,9 +99,10 @@ class App extends Component {
 
   instantiateContract() {
 
+    try {
     let web3 = this.state.web3;
 
-    var data = require('./contracts/ChainList.json');
+    var data = require('../contracts/ChainList.json');
     
     // Get the necessary contract artifact file and use it to instantiate a truffle contract abstraction.
     this.contracts.ChainList = TruffleContract(data);
@@ -113,6 +114,7 @@ class App extends Component {
     
     // Retrieve the article from the smart contract
     this.reloadArticles();
+    }catch(error) {console.log("errrr ", error)}
   }
 
   displayAccountInfo() {
