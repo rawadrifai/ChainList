@@ -8,7 +8,7 @@ module.exports = {
     rinkeby: {
       host: "localhost",
       port: 8545,
-      network_id: "4" // rinkeby network id
+      network_id: "4" // rinkey network id is 4
     }
   }
 };
